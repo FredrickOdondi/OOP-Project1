@@ -1,9 +1,9 @@
-import java.util.ArrayList;
 import java.util.Scanner; // Import the Scanner class
 
 public class Main {
     public static void main(String[] args) {
         BankAccount account = new BankAccount(10000);
+
         System.out.println("Welcome to Equity Bank");
         //display services
         System.out.println("1. Withdraw");
