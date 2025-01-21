@@ -16,6 +16,7 @@ public class Main {
         if (selection==1){
             //Deposit Money
             System.out.println("Enter amount to deposit");
+            
             double amount_withdrawn = scanner.nextDouble();
             account.withdraw(amount_withdrawn);
         } else if (selection==2) {
